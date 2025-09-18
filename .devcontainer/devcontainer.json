@@ -1,0 +1,23 @@
+{
+  "name": "seguridad-cloud",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "aws --version && az version && terraform -version || true",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "AmazonWebServices.aws-toolkit-vscode",
+        "ms-azuretools.vscode-azurecli",
+        "hashicorp.terraform",
+        "ms-vscode.remote-containers"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "remoteUser": "vscode"
+}
+
