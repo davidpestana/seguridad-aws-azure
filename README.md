@@ -1,5 +1,3 @@
-
-````markdown
 # 🛡️ Curso de Seguridad en AWS y Azure
 
 Este repositorio contiene todos los materiales, laboratorios y configuraciones necesarias para seguir el curso de **Seguridad en la Nube con AWS y Azure**, orientado a profesionales que desean comprender, aplicar y administrar buenas prácticas de seguridad en entornos cloud reales.
@@ -84,4 +82,3 @@ Asegúrate de tener:
 ├── .devcontainer/          # Entorno de desarrollo con Docker
 ├── scripts/                # Scripts auxiliares para labs o setup
 └── README.md
-```
